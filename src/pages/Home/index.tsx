@@ -11,13 +11,13 @@ const Home: React.FC = () => {
   const { movies, isLoading, isError, searchQuery, setSearchQuery } =
     useHomeFetch();
 
-  const handlerFn = (query: string) => setSearchQuery(query);
+  const setMovieFn = (query: string) => setSearchQuery(query);
 
   if (isError) return <div>Something went wrong ...</div>;
 
   return (
     <>
-      <SearchBar setSearchTerm={handlerFn} />
+      <SearchBar setSearchTerm={setMovieFn} />
       <Grid header={searchQuery && "Search Result"}>
         {movies &&
           movies.map((movie: Movie, index) => (

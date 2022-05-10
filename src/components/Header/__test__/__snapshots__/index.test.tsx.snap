@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header component snapshot 1`] = `
+.c0 {
+  background: var(--darkGrey);
+  padding: 0 20px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  max-width: var(--maxWidth);
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.c2 {
+  width: 200px;
+}
+
+.c3 {
+  width: 100px;
+}
+
+@media screen and (max-width:500px) {
+  .c2 {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .c3 {
+    width: 80px;
+  }
+}
+
+<h1
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="rmdb-logo"
+        className="c2"
+        src="react-movie-logo.svg"
+      />
+    </a>
+    <img
+      alt="tmdb-logo"
+      className="c3"
+      src="tmdb_logo.svg"
+    />
+  </div>
+</h1>
+`;
