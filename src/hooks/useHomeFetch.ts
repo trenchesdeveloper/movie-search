@@ -14,7 +14,6 @@ export const useHomeFetch = () => {
       setIsLoading(true);
 
       const movies = await API.fetchMovies(searchQuery);
-      console.log(movies);
 
       setMovies(movies);
     } catch (error) {

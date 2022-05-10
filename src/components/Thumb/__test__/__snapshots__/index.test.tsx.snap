@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thumb Thumb component snapshot 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 720px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  object-fit: cover;
+  border-radius: 20px;
+  -webkit-animation: animateThumb 0.5s;
+  animation: animateThumb 0.5s;
+}
+
+.c0:hover {
+  opacity: 0.8;
+}
+
+<div>
+  <img
+    alt="movie-thumb"
+    className="c0"
+    src=""
+  />
+</div>
+`;
+
+exports[`Thumb component snapshot 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 720px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  object-fit: cover;
+  border-radius: 20px;
+  -webkit-animation: animateThumb 0.5s;
+  animation: animateThumb 0.5s;
+}
+
+.c0:hover {
+  opacity: 0.8;
+}
+
+<div>
+  <img
+    alt="movie-thumb"
+    className="c0"
+    src=""
+  />
+</div>
+`;

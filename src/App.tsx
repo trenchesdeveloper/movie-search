@@ -6,7 +6,7 @@ import Header from "./components/Header";
 
 // pages
 import NotFound from "./pages/NotFound";
-import Home from "./pages";
+import Home from "./pages/Home";
 
 // Styles
 import { GlobalStyle } from "./GlobalStyle";
