@@ -11,8 +11,6 @@ import Home from "./pages";
 // Styles
 import { GlobalStyle } from "./GlobalStyle";
 
-
-
 const App: React.FC = () => (
   <Router>
     <Header />
